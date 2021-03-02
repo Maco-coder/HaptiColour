@@ -319,7 +319,7 @@ void createPlayerToken(float x, float y) {
   /* Setup the Virtual Coupling Contact Rendering Technique */
   playerToken = new HVirtualCoupling((tooltipsize)); 
   playerToken.h_avatar.setDensity(4); 
-  haplyAvatar = loadImage("../img/brush5.png"); 
+  haplyAvatar = loadImage("../img/brush3.png");
   haplyAvatar.resize((int)(hAPI_Fisica.worldToScreen(tooltipsize)), (int)(hAPI_Fisica.worldToScreen(tooltipsize)));
   playerToken.h_avatar.attachImage(haplyAvatar); 
   //playerToken.h_avatar.setFill(random(255),random(255),random(255)); 
