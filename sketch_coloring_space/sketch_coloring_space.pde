@@ -122,7 +122,7 @@ void setup() {
    *      linux:        haplyBoard = new Board(this, "/dev/ttyUSB0", 0);
    *      mac:          haplyBoard = new Board(this, "/dev/cu.usbmodem1411", 0);
    */
-  haplyBoard = new Board(this, "COM4", 0);
+  haplyBoard = new Board(this, "COM3", 0);
   widgetOne           = new Device(widgetOneID, haplyBoard);
   pantograph          = new Pantograph();
 
@@ -181,7 +181,6 @@ void setup() {
     cp5.addButton(button_label[i]).setImage(button_img[i])
     .setPosition(100*i,600)
     .setValue(0);
-    
   }
   
   //PImage[] playImages = {loadImage("play.png"), loadImage("play.png"), loadImage("play.png")};
